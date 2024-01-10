@@ -68,4 +68,5 @@ app.get('/edit/:id', function(req, res){
 app.get('/delete/:id', function(req, res){
     res.render('delete', {comment: comments[req.params.id], id: req.params.id});
 });
+//end
 
